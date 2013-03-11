@@ -14,6 +14,11 @@ The major program in the provided package is `*Cvalue*`. See help and look at al
   * $ ./Cvalue -h
 To run an example:	
   * $ ./Cvalue -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/pathway.example
+To run with the known genomic partitions (supercoils):
+  * $ ./Cvalue -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/pathway.example -s DATA/supercoils.fast
+To run with the whole genome expression data, which can indicate the ultilization frequency of each pathway
+  * $ ./Cvalue -i DATA/ecoli_466_4297 -j DATA/NC_000913.ptt -o DATA/NC_000913.gi.operon -p DATA/pathway.example
+
 
 =Contact=
 Any questions, problems, bugs are welcome and should be dumped to
