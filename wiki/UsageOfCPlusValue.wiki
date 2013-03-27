@@ -25,5 +25,5 @@ To identify the weight parameters dynamically [train the parameters (n, g, t) op
 
 =Contact=
 Any questions, problems, bugs are welcome and should be dumped to
-Qin Ma <maqin2001@gmail.com>
+Qin Ma <maqin@uga.edu>
 Creation: Oct. 29, 2011
