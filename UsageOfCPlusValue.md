@@ -1,0 +1,27 @@
+#Global genomic arrangement of bacterial genes is closely tied with the total transcriptional efficiency.
+
+# Usage #
+This software provides a new energy function (C+ value) for global arrangement of baterail operons.
+
+# Installation #
+Simply put "GlobalGenomicConstrai2.0.tar.gz" in any directory,
+  * _$ tar zxvf GlobalGenomicConstrain2.0.tar.gz_
+enter the folder "GlobalGenomicConstrain2.0" and type "make" then the compiled codes are within the same directory as the source.
+
+# Inputs and outputs #
+The major program in the provided package is `C+value`, it can parse two
+formats of files, discrete data and continuous data, and examples for each are provided.
+
+To see help and look at all available options.
+  * _$ ./C+value -h_
+
+To run the program just consider pathway and microarray information
+  * _$ ./C+value -i DATA/NC\_000913.expr.all -j DATA/NC\_000913.ptt  -o DATA/NC\_000913.gi.operon -p DATA/NC\_000913.pathway_
+
+To identify the weight parameters dynamically [the parameters (n, g, t) optimizing the accuracy of NAP binding sites mapping](train.md)
+  * $ ./C+value -i DATA/NC\_000913.expr.all -j DATA/NC\_000913.ptt  -o DATA/NC\_000913.gi.operon -p DATA/NC\_000913.pathway -M_*_$ perl analysis\_dynamic.pl DATA/NC\_000913.expr.dynamic > DATA/NC\_000913.expr.dynamic.stat
+
+# Contact #
+Any questions, problems, bugs are welcome and should be dumped to
+Qin Ma <maqin@uga.edu>
+Creation: Oct. 29, 2011
