@@ -1,3 +1,4 @@
+## Introduction ##
 The availability of a large number of sequenced bacterial genomes allows researchers not
 only to derive functional and regulation information about specific organisms but also to study the
 fundamental properties of the organization of a genome. Here we address an important and challenging
@@ -13,6 +14,8 @@ global arrangement of these operon clusters tend to minimize a new ‘‘energy�
 that reflects the efficiency of the transcriptional activation of the encoded pathways. These obser-
 11 vations provide insights into further study of the genomic organization of genes in bacteria.
 
-**Citing us**: Qin Ma, Ying Xu, Global genomic arrangement of bacterial genes is closely tied with the total transcriptional efficiency. _Genomics, Proteomics & Bioinformatics_, 2013, 10.1016/j.gpb.2013.01.004
+## Citing us ##
+Qin Ma, Ying Xu, Global genomic arrangement of bacterial genes is closely tied with the total transcriptional efficiency. _Genomics, Proteomics & Bioinformatics_, 2013, 10.1016/j.gpb.2013.01.004
 
-**Contact**: Any questions, problems, bugs are welcome and should be dumped to Qin Ma <**_maqin@uga.edu_**>
+## Contact ##
+Any questions, problems, bugs are welcome and should be dumped to Qin Ma <**_qin.ma@sdstate.edu_**>
